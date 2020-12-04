@@ -42,8 +42,8 @@ const sendData = () => {
   sendHttpRequest('POST', 'http://demo.thingsboard.io/api/plugins/rpc/oneway/3e85b630-28a4-11eb-85ee-f936949cce2a',{
    // email: 'eve.holt@reqres.in'
     // password: 'pistol'
-      method:"R4",
-      params:false,
+      method:"R1",
+      params:true,
       timeout:1000
   })
     .then(responseData => {
